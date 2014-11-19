@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="fr" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="fr" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->
+<head>
+    <title>KataLean</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="KataLean est une société de consulting DevOps, Cloud et performance qui a pour objectif de prolonger votre démarche Agile jusqu'en production." />
+    <meta name="author" content="Arno Baudu" />
+    <meta name="keywords" content="devops, agile, cloud, cloud computing, infrastructure, platform, software, IaaS, PaaS, SaaS, performance, KPI, gift, continuous, continuous integration, continuous deployment, continuous delivery, continuous improvement, lean, kanban, gamba, process, value, business, BPM, event, project, quality, quality insurance, modeling, information, integration, pattern, outsourcing, network, java, jvm, scala, python, go, golang, clojure, linux, git, jenkins, analytics, big data, security, REST, service, SOA, API, scalability, expert, IT, strategy, scrum, startup, innovation, architecture, engineering" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico" />
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="../theme/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../theme/css/style.css" />
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="../theme/plugins/line-icons/line-icons.css" />
+    <link rel="stylesheet" href="../theme/plugins/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../theme/plugins/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="../theme/plugins/layer-slider/layerslider/css/layerslider.css" />
+    <link rel="stylesheet" href="../theme/plugins/image-hover/css/img-hover.css" />
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="../theme/css/default.css" id="style_color" />
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="../theme/css/custom.css" />
+
+    <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        title="KataLean ATOM Feed" />
+    <link href="../feeds/all.rss.xml" type="application/atom+xml" rel="alternate"
+        title="KataLean RSS Feed" />
+
+<!-- Open Graph tags -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="KataLean"/>
+        <meta property="og:url" content=".."/>
+        <meta property="og:description" content="KataLean prolonge votre démarche Agile jusqu'en production."/>
+
+    <!-- Open Sans Web Font -->
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans&subset=latin" rel="stylesheet" type="text/css" /> -->
+
+</head>
+
+<!-- <body class="header-fixed">  -->
+<body>
+<div class="wrapper">
+    <!-- Header -->
+    <div class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <!-- Topbar Navigation -->
+                <ul class="loginbar pull-right">
+                    <!-- Social Links -->
+                    <a href="http://www.twitter.com/Kata_Lean" data-original-title="Twitter"><i class="icon-bg-blue rounded-x fa fa-twitter icon-padding"></i></a>&nbsp;
+                    <a href="http://www.facebook.com/KataLeanIT" data-original-title="Facebook"><i class="icon-bg-dark-blue rounded-x fa fa-facebook icon-padding-facebook"></i></a>&nbsp;
+                    <a href="https://plus.google.com/b/108442473056864143361/108442473056864143361/about" data-original-title="Goole Plus"><i class="icon-bg-red rounded-x fa fa-google-plus icon-padding"></i></a>
+                    <!-- End Social Links -->
+                    <li class="topbar-devider"></li>
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <a>Language</a>
+                        <ul class="lenguages">
+                            <li class="active">
+                                <a href="http://www.katalean.fr">Français <i class="fa fa-check"></i></a>
+                            </li>
+                            <!-- <li><a href="http://www.katalean.com">English</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="topbar-devider"></li>
+                    <li><a href="javascript:void(0);" data-toggle="modal" data-target="#modlogin"><i class="fa fa-user"></i> Login</a></li>
+                    <!-- <li class="topbar-devider"></li>
+                    <li><a href="http://click2dial.org/u/aXRAa2F0YWxlYW4uY29t" rel="nofollow" target="_blank"><i class="fa fa-phone"></i> Appeler</a></li> -->
+                    
+                </ul>
+                <!-- End Topbar Navigation -->
+            </div>
+        </div>
+        <!-- End Topbar -->
+
+        <!-- Navbar -->
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img id="logo-header" src="/theme/images/Katalean_logo3.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Site Navigation -->
+                        <!-- Home / Products / Services / Solutions / Blog / Contacts -->
+
+                        <!-- Home Menu -->
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <!-- End Home Menu -->
+
+                        <!-- Gift Menu -->
+                        <!-- <li>
+                            <a href="/products/gift.html">Gift</a>
+                        </li> -->
+                        <!-- End Gift Menu -->
+
+                        <!-- Products Menu >
+                        <li class="dropdown">
+                            <a href="/products.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Produits
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/products/deft_store.html">Deft Store</a></li>
+                                <li><a href="/products/deft_framework.html">Deft Framework</a></li>
+                                <li><a href="/products/gift.html">Gift</a></li>
+                            </ul>
+                        </li>
+                        <! End Products Menu -->
+
+                        <!-- Solutions Menu -->
+                        <li class="dropdown">
+                            <a href="/solutions.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Solutions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/solutions/devops.html"><i class="fa fa-users"></i> DevOps</a></li>
+                                <li><a href="/solutions/cloud.html"><i class="fa fa-cloud"></i> Cloud Computing</a></li>
+                                <li><a href="/solutions/performance.html"><i class="fa fa-tachometer"></i> Performance</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Solutions Menu -->
+
+                        <li>
+                            <a href="/#services-overview">Services</a>
+                        </li>
+                        <!-- Services Menu
+                        <li class="dropdown">
+                            <a href="/services.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/services/consulting.html"><i class="fa fa-comments-o"></i> Conseil</a></li>
+                                <li><a href="/services/integration.html"><i class="fa fa-cubes"></i> Intégration</a></li>
+                                <li><a href="/services/training.html"><i class="fa fa-graduation-cap"></i> Formation</a></li>
+                                <li><a href="/services/support.html"><i class="fa fa-fax"></i> Support</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Services Menu -->
+
+                        <!-- Blog Menu -->
+                        <li>
+                            <a href="/#footer">Blog</a>
+                        </li>
+                        <!-- End Blog Menu -->
+
+                        <!-- Contacts Menu -->
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#modcontact">Contact</a>
+                        </li>
+                        <!-- End Contacts Menu -->
+
+                        <!-- End Site Navigation -->
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>    <!-- End Header -->
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="pull-left breadcrumb">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/solutions.html">Solutions</a></li>
+                <li class="active">DevOps</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Page Header -->
+    <div class="page-top bg-devops parallaxBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Expertise DevOps</h1>
+                    <p>Profitez de nos années d'expertise opérationnelle et de notre maitrise des processus de livraison continue pour offrir une nouvelle perspective à votre démarche Agile.</p>
+                    <a href="javascript:void(0);" data-toggle="modal" data-target="#modcontact" class="btn-u btn-u-red">Demandez-nous conseil !</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Header -->
+
+            <div class="modal fade" id="modlogin" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+                <div class="modal-dialog modlogin">
+                    <form class="" action="" method="POST">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 class="modal-title" id="contactModal">Login to your account</h3>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group margin-bottom-20">
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" placeholder="Username" class="form-control">
+                                        </div>
+                                        <div class="input-group margin-bottom-20">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="password" placeholder="Password" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="pull-left">
+                                            <label class="checkbox"><input type="checkbox"> Stay signed in</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <a class="color-green forgot" href="#">Forgot your password?</a>
+                                <button class="btn-u pull-right" type="submit">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>            <div class="modal fade" id="modcontact" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <form class="contact" action="//forms.brace.io/infos@katalean.com" method="POST">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 class="modal-title" id="contactModal">Nous contacter</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>Votre Prénom</h4>
+                                        <p><input class="form-control" type="text" name="contact_firstname"></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Votre Nom</h4>
+                                        <p><input class="form-control" type="text" name="contact_lastname"></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>E-mail</h4>
+                                        <p><input class="form-control" type="email" name="contact_name"></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Téléphone</h4>
+                                        <p><input class="form-control" type="tel" pattern="[0-9]{10}" name="contact_phone" title="Votre numéro de téléphone"/></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4>Message</h4>
+                                        <p><textarea rows="5" class="form-control" type="text" name="contact_message"></textarea></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p><input type="checkbox" name="contact_newsletter"/> Je souhaite être tenu informé de votre actualité.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-u btn-u-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn-u btn-u-primary" value="Send">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    <!-- Content Part -->
+    <div class="container content">
+
+    <!-- <div class="container content"> -->
+
+</div>
+
+
+<div class="container content">
+    <!--DevOps Title Box-->
+    <div id="solutions" class="title-box">
+        <div class="title-box-text">L’excellence opérationnelle <span class="color-purple">au service de l'entreprise.</span></div>
+        <p>Avec DevOps en complément d'Agile, réactivité face au besoin et délai avant rentabilité n'ont jamais été aussi court.</p>
+    </div>
+    <!-- End DevOps Title Box -->
+
+    <div class="margin-bottom-20"></div>
+
+        <!-- DevOps What -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="promo-box animated fadeInLeftBig">
+                    <i class="fa fa-weixin color-purple"></i>
+                    <h3>Collaboration</h3>
+                    <p>Que vous soyez orienté business, développement, opérations ou qualité, resserrez les liens entre vos équipes et affirmez votre culture d'entreprise pour une plus grande cohérence dans la réalisation de vos projets.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="promo-box animated fadeInUpBig">
+                    <i class="fa fa-check-square-o color-purple"></i>
+                    <h3>Convergence</h3>
+                    <p>Nous vous aiderons à trouver un processus ressemblant business, developement, exploitation et qualité qui rationalisera vos processus de livraison afin d'offrir à vos équipes une vision commune orientée vers la satisfaction cliente.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="promo-box animated fadeInRightBig">
+                    <i class="fa fa-cogs color-purple"></i>
+                    <h3>Automatisation</h3>
+                    <p>Devenez plus Agile grâce à l'automatisation de votre processus de livraison logicielle, avec à la clé une amélioration continue de la qualité de vos applications et une performance business décuplée.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="promo-box animated fadeInRightBig">
+                    <i class="fa fa-cogs color-purple"></i>
+                    <h3>Mesure</h3>
+                    <p>Difficile de parler d'amélioration sans avoir la preuve de son existe. Il n'est possible de constater de l'efficacité de nos actions que par la mise en place d'indicateurs de performance clés.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End DevOps What -->
+    <div class="margin-bottom-60"></div>
+    <div id="solutions-overview" class="headline no-margin"><h1 class="purple">DevOps en chiffres</h1></div>
+</div>
+
+<div class="bg-purple">
+    <div class="container content">
+        <div class="margin-bottom-40"></div>
+
+		<!-- DevOps Data -->
+		<div class="margin-bottom-20"></div>
+		<div class="row">
+		    <div class="col-md-3 col-sm-6">
+		        <a href="https://puppetlabs.com/wp-content/uploads/2013/03/2013-state-of-devops-report.pdf" rel="nofollow" target="_blank">
+			        <div class="promo-box doughnut">
+			            <div class="chart percent" data-percent="51">51</div>
+			            <h3>d'incidents en moins pour une application ayant adopté DevOps</h3>
+			        </div>
+			    </a>
+		    </div>
+		    <div class="col-md-3 col-sm-6">
+		        <a href="https://puppetlabs.com/wp-content/uploads/2013/03/2013-state-of-devops-report.pdf" rel="nofollow" target="_blank">
+			        <div class="promo-box doughnut">
+			            <div class="chart percent" data-percent="91">95</div>
+			            <h3 text="center">de temps en moins entre chaque déploiement</h3>
+			        </div>
+		        </a>
+		    </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="http://www.rightscale.com/blog/cloud-industry-insights/cloud-computing-trends-2014-state-cloud-survey#Hybrid-Cloud-Is-the-Strategy-of-Choice" rel="nofollow" target="_blank">
+        	        <div class="promo-box doughnut">
+        	            <div class="chart percent" data-percent="55">55</div>
+        	            <h3 text="center">des entreprises IT examinent ou pratiquent le déploiement continu</h3>
+        	        </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-6">
+	            <a href="https://puppetlabs.com/wp-content/uploads/2013/03/2013-state-of-devops-report.pdf" rel="nofollow" target="_blank">
+	    	        <div class="promo-box doughnut">
+	    	            <div class="chart percent" data-percent="75">75</div>
+	    	            <h3 text="center">de recherche en plus d'un profil DevOps en entreprise</h3>
+	    	        </div>
+	            </a>
+	        </div>
+		</div>
+		<div class="margin-bottom-30"></div>
+		<!-- End DevOps Data -->
+
+        <div class="margin-bottom-55"></div>
+    </div>
+</div>
+
+<div class="container content">
+    <div class="margin-bottom-100"></div>
+    <div id="solutions-overview" class="headline"><h1 class="purple">Pourquoi investir dans DevOps ?</h1></div>
+    <div class="margin-bottom-60"></div>
+
+        <!-- DevOps Why -->
+        <div class="row promo-service">
+            <div class="col-md-6 md-margin-bottom-20" align="justify">
+                <p><span class="dropcap-bg bg-purple">L</span>a clé du succès d'une entreprise réside dans sa capacité à pouvoir solutionner rapidement et efficacement les problèmes de ses clients. Les méthodes Agile ont prouvé qu'elles pouvaient répondre au besoin de vélocité des entreprises et qu'elles facilitaient l'ajustement du produit avec les attentes clientes, par la mise en place d'échanges plus fréquents sur ce qui aura jusqu'ici été produit.</p>
+                <p>L'evolution continue des solutions logicielles qu'Agile implique ne semble cependant pas compatible avec la gestion rigoureuse des changements que se doit d'appliquer le monde des opérations, où le changement est vu comme l'ennemi de la stabilité d'un environnement de production.</p>
+                <p>DevOps reconcilie changement et stabilité avec le besoin d'agilité du business. Il est rendu possible par une plus forte cohésion entre développement et opérations en revisitant votre processus de création de valeurs, depuis la conception jusqu'à la mise en production. L'automatisation des bonnes pratiques qui en découle permet aux livraisons des changements logiciels de respecter une maitrise rigoureuse du changement tout en répondant au besoin d'agilité que requière votre business. Vous pouvez maintenant répondre rapidement et efficacement aux besoins de vos clients.</p>
+                <p>DevOps répond à la fois à la nécessité du busienss de livrer rapidement la valeur produite afin de pouvoir la monétiser, au besoin de fiabilité exigé par les utilisateurs par l'automatisation des contrôles qualité et à l'attente de retour rapide d'informations des dévelppeurs sur leur travail.</p>
+                <p>Ces attributs ont pour conséquence directe l'amélioration d'indicateurs comme le délai avant commercialisation, la qualité logicielle ou la productivité. DevOps permettra par ailleurs une diminution de l'opacité du circuit de production et une meilleure visibilité sur les coûts de production d'une application ou d'un service.</p>
+
+                <div class="clearfix margin-bottom-10"></div>
+
+                <a href="javascript:void(0);" class="btn-u btn-u-default" data-toggle="modal" data-target="#modcontact"><i class="fa fa-envelope-o"></i> Nous contacter</a>
+            </div>
+
+            <div class="col-md-6">
+            <div class="margin-bottom-100"></div>
+                <div class="carousel slide carousel-v1" id="myCarousel-1">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="1"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="2"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img alt="" src="/theme/images/devops_slider1.jpg">
+                            <div class="carousel-caption">
+                                <p>Enquête faite auprès de 2164 professionnels Java - ZeroTurnaround, RebelLabs</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/devops_slider2.jpg">
+                            <div class="carousel-caption">
+                                <p>Rapport "State of DevOps" 2013 - Puppet Labs</p>
+                            </div>
+                            </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/devops_slider3.jpg">
+                            <div class="carousel-caption">
+                                <p>Rapport TechInsights DevOps - CA Technologies</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/devops_slider4.jpg">
+                            <div class="carousel-caption">
+                                <p>Rapport TechInsights DevOps - CA Technologies</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-arrow">
+                        <a data-slide="prev" href="#myCarousel-1" class="left carousel-control">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a data-slide="next" href="#myCarousel-1" class="right carousel-control">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End DevOps Why -->
+    <div class="margin-bottom-100"></div>
+    <div id="solutions-overview" class="headline no-margin"><h1 class="purple">Que proposons-nous ?</h1></div>
+</div>
+<div class="bg-purple">
+    <div class="container content">
+    <div class="margin-bottom-50"></div>
+		<!-- DevOps Services -->
+		<div class="row features font-16" align="justify">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-2 col-md-offset-1">
+						<i class="feature-icon fa fa-comments-o"></i>
+					</div>
+					<div class="col-md-8">
+						<h1>Conseil</h1>
+						<p>Au travers d'entretiens et de visites sur le terrain, nous cartographierons ensemble l'état actuel de votre processus de livraison logicielle, depuis la capture du besoin client jusqu'à sa mise en production. C'est une base nécessaire à la recherche d'un consensus dont l'objectif est l'amélioration.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<hr class="purple">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-2 col-md-offset-2">
+						<i class="feature-icon fa fa-cubes"></i>
+					</div>
+					<div class="col-md-7">
+						<h1>Intégration</h1>
+						<p>Notre savoir-faire sur le terrain et nos connaissances des bonnes pratiques nous confèrent la valeur ajoutée dont votre entreprise a besoin pour rester compétitive. Une proposition d'architecture adhérant à vos besoins ainsi qu'un schéma directeur vous offrirons l'assurance d'une décision sans risque.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<hr class="purple">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-2 col-md-offset-1">
+						<i class="feature-icon fa fa-graduation-cap"></i>
+					</div>
+					<div class="col-md-8">
+						<h1>Formation</h1>
+						<p>DevOps ne s'arrète pas à une amélioration technique, c'est aussi l'instigation d'une culture d'entreprise et l'assurance que vos équipes comprennent les objectifs qui leur sont confiés. C'est également l'occasion de rappeler que la valeur délivrée au client doit être au centre des préoccupations de chacun.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<hr class="purple">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-2 col-md-offset-2">
+						<i class="feature-icon fa fa-fax"></i>
+					</div>
+					<div class="col-md-7">
+						<h1>Support</h1>
+						<p>L'automatisation de vos tâches existantes ou l'intégration d'une solution de déploiement continu peuvent être soutenus par nos meilleurs experts techniques. Nous pourrons ensuite assurer un suivi durable de votre production par le biais d'un support téléphonique 24/7 en cas d'incident.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- End DevOps Services -->    <div class="margin-bottom-50"></div>
+    </div>
+</div>
+
+<div class="container content">
+
+    <div class="margin-bottom-100"></div>
+    <div id="solutions-overview" class="headline"><h1 class="purple">Nos partenaires technologiques</h1></div>
+    <div class="margin-bottom-100"></div>
+
+		<!-- DevOps Tech -->
+		<div class="job-partners no-touch">
+	        <ul class="list-inline our-clients" id="effect-2">
+	        	<li>
+	                <figure>
+	                	<a href="https://aws.amazon.com">
+		                    <img src="/theme/images/partner_aws.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>Amazon Web Services</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+	                <figure>
+	                	<a href="https://cloud.google.com">
+		                    <img src="/theme/images/partner_gcp.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>Google Cloud Platform</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+	                <figure>
+	                	<a href="https://www.vmware.com">
+		                    <img src="/theme/images/partner_vmware.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>VMware</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+	                <figure>
+	                	<a href="https://www.docker.com">
+		                    <img src="/theme/images/partner_docker.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>Docker</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+	                <figure>
+	                	<a href="http://www.saltstack.com/">
+		                    <img src="/theme/images/partner_saltstack.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>Saltstack</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+	                <figure>
+	                	<a href="https://mesosphere.com/">
+		                    <img src="/theme/images/partner_mesosphere.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>Mesosphere</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+	                <figure>
+	                	<a href="http://www.kubernetes.io">
+		                    <img src="/theme/images/partner_kubernetes.png" alt="">
+		                    <div class="img-hover">
+		                        <h4>Kubernetes</h4>
+	                    	</div>
+	                    </a>
+	                </figure>
+	            </li>
+
+	            <li>
+                    <figure>
+                    	<a href="http://jenkins-ci.org/">
+    	                    <img src="/theme/images/partner_jenkins.png" alt="">
+    	                    <div class="img-hover">
+    	                        <h4>Jenkins CI</h4>
+                        	</div>
+                        </a>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                    	<a href="http://rundeck.org">
+    	                    <img src="/theme/images/partner_rundeck.png" alt="">
+    	                    <div class="img-hover">
+    	                        <h4>Rundeck</h4>
+                        	</div>
+                        </a>
+                    </figure>
+                </li>
+	        </ul>
+	    </div>
+	    <!-- DevOps Tech -->
+    <div class="margin-bottom-60"></div>
+    <div id="solutions-overview" class="headline"><h1 class="purple">Cas d'usages</h1></div>
+    <div class="margin-bottom-60"></div>
+
+        <!-- DevOps Who -->
+        <div class="row margin-bottom-40" style="min-height: 275px; height: auto;" align="justify">
+            <div class="col-md-6">
+                <div class="tag-box tag-box-v4">
+                    <p>DevOps aspire à devenir la continuité d'Agile, avec pour objectif de fusionner les différents processus de production de l'entreprise, depuis la définition d'une idée jusqu'à sa mise production. DevOps reprend l'état de l'art des bonnes pratiques, que ce soit en matière de gouvernance technologique, d'assurance qualité, de stratégie business ou de gestion des ressources humaines. L'orientation cliente permet également de répondre plus rapidement et plus justement aux besoins des clients, par l'instigation d'un feedback continu. Ce dernier vous offrira un engagement client fort et un avantage concurrenciel vous plaçant au dessus de la concurrence. Retrouvez quelques-uns des nombreux témoignages de personnalités reconnues pour leur expertise du modèle DevOps.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="carousel slide testimonials testimonials-v1" id="testimonials-1">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <p>"La gouvernance technologique s'étend aux services, aux API et aux applications. Ne tombez pas dans les faiblesses de la gouvernance! Une initiative de gouvernance efficace unifie la gouvernance SOA, d'API, d'application, de sécurité, de déploiement et d'infrastructure dans la perspective globale et interconnectée qu'incarne DevOps.”</p>
+                            <div class="testimonial-info">
+                                <img alt="" src="/theme/images/Chris_Haddad-WSO2.jpg">
+                                <span class="testimonial-author">
+                                    <a href="http://wso2.com/about/news/new-wso2-white-paper-examines-best-practices-for-application-services-governance/" rel="nofollow" target="_blank">Chris Haddad</a>
+                                    <em>Vice-président de la technologie à WSO2</em>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>"Quand je suis arrivé, nous faisions 7 expériences utilisateurs par an. En instiguant une culture de l’innovation effrénée, nous en sommes arrivés à pouvoir effectuer 165 experiences en production, dans les trois mois les plus occupés de la saison des impôts.
+                            Notre résultat net? Le taux de conversion du site web a augmenté de 50%. Le résultat pour les employés? Tout le monde adore, parce que leurs idées peuvent maintenant aboutir et être testées sur le marché.”</p>
+                            <div class="testimonial-info">
+                                <img alt="" src="/theme/images/Dan_Maurer-Intuit.jpg">
+                                <span class="testimonial-author">
+                                    <a href="http://network.intuit.com/2011/04/20/leadership-in-the-agile-age/" rel="nofollow" target="_blank">Dan Maurer</a>
+                                    <em>Vice-président d'Intuit</em>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>"Selon une étude menée auprès de 9600 entreprises du monde entier, les sociétés ayant mis en place une organisation tournée vers la haute performance DevOps ont été 2,5 fois plus enclin de dépasser leur seuil de rentabilité, leurs parts de marché et leurs objectifs de productivité. Elles ont par ailleurs obtenu une capitalisation boursière supérieure de 50% sur 3 ans.”</p>
+                            <div class="testimonial-info">
+                                <img alt="" src="/theme/images/Gene_Kim.jpg">
+                                <span class="testimonial-author">
+                                    <a href"http://puppetlabs.com/sites/default/files/2014-state-of-devops-report.pdf" rel="nofollow" target="_blank">Gene Kim</a>
+                                    <em>Rapport "State of DevOps 2014" de Puppet Labs</em>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-arrow">
+                        <a data-slide="prev" href="#testimonials-1" class="left carousel-control">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a data-slide="next" href="#testimonials-1" class="right carousel-control">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End DevOps Who -->
+    <div class="margin-bottom-60"></div>
+    <div id="solutions-overview" class="headline"><h1 class="purple">Venez nous parler !</h1></div>
+
+        <!-- DevOps Call2Action -->
+        <div class="purchase">
+            <div class="row">
+                <div class="col-md-7">
+                    <p>En travaillant sur les trois axes de l'évolution DevOps que sont les personnes, les processus et les technologies, KataLean vous assure une évolution en douceur vers le déploiement continu. De l'identification du besoin à l'exploitation de votre solution logicielle, notre expertise DevOps vous assure un soutien continu tout au long de votre démarche Agile.</p>
+                    <p>Vous êtes intéréssé par un de nos services? Vous souhaiteriez obtenir plus de renseignements, gratuitement et sans aucun engagement? Demandez à nous rencontrer !</p>
+                </div>
+                <div class="col-md-5">
+
+                    <div class="btn-buy">
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#modcontact" class="btn-u btn-u-lg text-center"><i class="fa fa-users"></i> Nous rencontrer</a>
+                    </div>
+                    <div class="btn-buy">
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#modcontact" class="btn-u btn-u-lg text-center"><i class="fa fa-file-text"></i> Demandez un devis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- DevOps Call2Action -->
+    <div class="margin-bottom-100"></div>
+    <!-- </div> -->
+
+    </div>
+    <!-- End Content Part -->
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <div id="footer" class="footer" align="justify">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 md-margin-bottom-40">
+                    <!-- About -->
+                    <div class="headline"><h2>A Propos</h2></div>
+                    <p class="margin-bottom-25 md-margin-bottom-40">KataLean est une société de conseil dont l'objectif est d'offrir un avantage concurrenciel à ses clients en s'appuyant sur de bonnes pratiques, une expertise robuste et les dernières avancées technologiques.</p>
+                    <!-- End About -->
+
+                    <!-- Newsletter -->
+                    <div class="headline"><h2>Newsletter</h2></div>
+                    <p>Souscrivez dès aujourd'hui à notre newsletter afin de rester informé sur nos activités.</p>
+                    <form class="footer-subsribe" action="//forms.brace.io/newsletter@katalean.com" method="POST">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email Address" name="subscriber">
+                            <span class="input-group-btn">
+                                <button class="btn-u" type="submit" value="Subscribe"><i class="fa fa-paper-plane"></i> Subscribe</button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- End Newsletter -->
+                </div><!--/col-md-4-->
+
+                <div class="col-md-4 md-margin-bottom-40">
+                    <!-- Recent Blogs -->
+                    <div class="posts">
+                        <div class="headline"><h2>Billets Récents</h2></div>
+                        <dl class="dl-horizontal">
+                            <dt><a href="#"><img src="/theme/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+                            <dd>
+                                <p>Coming soon...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- End Recent Blogs -->
+                </div><!--/col-md-4-->
+
+                <div class="col-md-4 map-img">
+                    <!-- Contact Us -->
+                    <div class="headline"><h2>Nous Contacter</h2></div>
+                    <address class="md-margin-bottom-40">
+                        KataLean <br/>
+                        59, rue des Chalâtres <br/>
+                        44000, Nantes <br/>
+                        Phone : <a href="tel:+33953741561">(+33) 09 53 74 15 61</a><br/>
+                        Fax : <a href="tel:+33958741561">(+33) 09 58 74 15 61</a><br/>
+                        E-mail : <a href="mailto:infos@katalean.fr">infos@katalean.fr</a>
+                        <br/><br/>
+                        <a href="/KataLean.vcf"><button class="btn-u" type="button"><i class="fa fa-user"></i> Format vCard</button></a>
+                    </address>
+                    <!-- End Contact Us -->
+                </div><!--/col-md-4-->
+            </div>
+        </div>
+    </div><!--/footer-->
+    <!-- End Footer -->
+
+    <!--=== Copyright ===-->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        2014 &copy; KataLean. Tous Droits Réservés.
+                        <a href="#">Politique de Confidencialité</a> | <a href="#">Conditions de Service</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-icons pull-right">
+                        <li><a href="http://www.twitter.com/Kata_Lean" data-original-title="Twitter" class="rounded-x social_twitter"></a></li>
+                        <li><a href="http://www.facebook.com/KataLeanIT" data-original-title="Facebook" class="rounded-x social_facebook"></a></li>
+                        <li><a href="https://plus.google.com/b/108442473056864143361/108442473056864143361/about" data-original-title="Goole Plus" class="rounded-x social_googleplus"></a></li>
+                        <li><a href="http://www.linkedin.com/" data-original-title="Linkedin" class="rounded-x social_linkedin"></a></li>
+                        <li><a href="/feeds/all.atom.xml" data-original-title="Feed" class="rounded-x social_rss"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--/copyright-->
+        <!-- End Copyright -->    <!-- End Footer -->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="/theme/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/theme/plugins/jquery-migrate-1.2.1.min.js"></script>
+<!-- Layer Slider -->
+<script type="text/javascript" src="/theme/plugins/layer-slider/layerslider/js/greensock.js"></script>
+<script type="text/javascript" src="/theme/plugins/layer-slider/layerslider/js/layerslider.transitions.js"></script>
+<script type="text/javascript" src="/theme/plugins/layer-slider/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+<!-- End Layer Slider -->
+<script type="text/javascript" src="/theme/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="/theme/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="/theme/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/theme/plugins/jquery.easypiechart.min.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="/theme/js/app.js"></script>
+<script type="text/javascript" src="/theme/js/pages/index.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initSliders();
+        Index.initLayerSlider();
+        $('.chart').easyPieChart({
+            //your options goes here
+            barColor: '#72c02c',
+            trackColor: '#f1f1f1',
+            scaleColor: false,
+            lineWidth: 20,
+            lineCap: 'square',
+            size: 140,
+            animate: { duration: 2500, enabled: true }
+        });
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="theme/plugins/respond.js"></script>
+    <script src="theme/plugins/layer-slider/theme/js/html5.js"></script>
+<![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-53331013-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>KataLean</title><link href="http://www.katalean.fr/" rel="alternate"></link><link href="http://www.katalean.fr/feeds/devops.atom.xml" rel="self"></link><id>http://www.katalean.fr/</id><updated>2014-06-28T22:46:00+02:00</updated><entry><title>C'est quoi DevOps?</title><link href="http://www.katalean.fr/blog/qu-es-ce-que-devops.html" rel="alternate"></link><updated>2014-06-28T22:46:00+02:00</updated><author><name>Arno BAUDU</name></author><id>tag:www.katalean.fr,2014-06-28:blog/qu-es-ce-que-devops.html</id><summary type="html">&lt;h1&gt;C'est quoi&lt;/h1&gt;
+&lt;p&gt;Blah blah blah&lt;/p&gt;
+&lt;h1&gt;C'est pour qui&lt;/h1&gt;
+&lt;h2&gt;Pour le business&lt;/h2&gt;
+&lt;h2&gt;Pour le developpeur&lt;/h2&gt;
+&lt;h2&gt;Pour les operations&lt;/h2&gt;</summary><category term="devops"></category></entry></feed>

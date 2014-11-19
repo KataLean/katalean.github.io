@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="fr" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="fr" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->
+<head>
+    <title>KataLean</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="KataLean est une société de consulting DevOps, Cloud et performance qui a pour objectif de prolonger votre démarche Agile jusqu'en production." />
+    <meta name="author" content="Arno Baudu" />
+    <meta name="keywords" content="devops, agile, cloud, cloud computing, infrastructure, platform, software, IaaS, PaaS, SaaS, performance, KPI, gift, continuous, continuous integration, continuous deployment, continuous delivery, continuous improvement, lean, kanban, gamba, process, value, business, BPM, event, project, quality, quality insurance, modeling, information, integration, pattern, outsourcing, network, java, jvm, scala, python, go, golang, clojure, linux, git, jenkins, analytics, big data, security, REST, service, SOA, API, scalability, expert, IT, strategy, scrum, startup, innovation, architecture, engineering" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico" />
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="../theme/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../theme/css/style.css" />
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="../theme/plugins/line-icons/line-icons.css" />
+    <link rel="stylesheet" href="../theme/plugins/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../theme/plugins/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="../theme/plugins/layer-slider/layerslider/css/layerslider.css" />
+    <link rel="stylesheet" href="../theme/plugins/image-hover/css/img-hover.css" />
+
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="../theme/css/default.css" id="style_color" />
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="../theme/css/custom.css" />
+
+    <link href="../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        title="KataLean ATOM Feed" />
+    <link href="../feeds/all.rss.xml" type="application/atom+xml" rel="alternate"
+        title="KataLean RSS Feed" />
+
+<!-- Open Graph tags -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="KataLean"/>
+        <meta property="og:url" content=".."/>
+        <meta property="og:description" content="KataLean prolonge votre démarche Agile jusqu'en production."/>
+
+    <!-- Open Sans Web Font -->
+    <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans&subset=latin" rel="stylesheet" type="text/css" /> -->
+
+</head>
+
+<!-- <body class="header-fixed">  -->
+<body>
+<div class="wrapper">
+    <!-- Header -->
+    <div class="header">
+        <!-- Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <!-- Topbar Navigation -->
+                <ul class="loginbar pull-right">
+                    <!-- Social Links -->
+                    <a href="http://www.twitter.com/Kata_Lean" data-original-title="Twitter"><i class="icon-bg-blue rounded-x fa fa-twitter icon-padding"></i></a>&nbsp;
+                    <a href="http://www.facebook.com/KataLeanIT" data-original-title="Facebook"><i class="icon-bg-dark-blue rounded-x fa fa-facebook icon-padding-facebook"></i></a>&nbsp;
+                    <a href="https://plus.google.com/b/108442473056864143361/108442473056864143361/about" data-original-title="Goole Plus"><i class="icon-bg-red rounded-x fa fa-google-plus icon-padding"></i></a>
+                    <!-- End Social Links -->
+                    <li class="topbar-devider"></li>
+                    <li>
+                        <i class="fa fa-globe"></i>
+                        <a>Language</a>
+                        <ul class="lenguages">
+                            <li class="active">
+                                <a href="http://www.katalean.fr">Français <i class="fa fa-check"></i></a>
+                            </li>
+                            <!-- <li><a href="http://www.katalean.com">English</a></li>-->
+                        </ul>
+                    </li>
+                    <li class="topbar-devider"></li>
+                    <li><a href="javascript:void(0);" data-toggle="modal" data-target="#modlogin"><i class="fa fa-user"></i> Login</a></li>
+                    <!-- <li class="topbar-devider"></li>
+                    <li><a href="http://click2dial.org/u/aXRAa2F0YWxlYW4uY29t" rel="nofollow" target="_blank"><i class="fa fa-phone"></i> Appeler</a></li> -->
+                    
+                </ul>
+                <!-- End Topbar Navigation -->
+            </div>
+        </div>
+        <!-- End Topbar -->
+
+        <!-- Navbar -->
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Navigation</span>
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img id="logo-header" src="/theme/images/Katalean_logo3.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-responsive-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Site Navigation -->
+                        <!-- Home / Products / Services / Solutions / Blog / Contacts -->
+
+                        <!-- Home Menu -->
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <!-- End Home Menu -->
+
+                        <!-- Gift Menu -->
+                        <!-- <li>
+                            <a href="/products/gift.html">Gift</a>
+                        </li> -->
+                        <!-- End Gift Menu -->
+
+                        <!-- Products Menu >
+                        <li class="dropdown">
+                            <a href="/products.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Produits
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/products/deft_store.html">Deft Store</a></li>
+                                <li><a href="/products/deft_framework.html">Deft Framework</a></li>
+                                <li><a href="/products/gift.html">Gift</a></li>
+                            </ul>
+                        </li>
+                        <! End Products Menu -->
+
+                        <!-- Solutions Menu -->
+                        <li class="dropdown">
+                            <a href="/solutions.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Solutions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/solutions/devops.html"><i class="fa fa-users"></i> DevOps</a></li>
+                                <li><a href="/solutions/cloud.html"><i class="fa fa-cloud"></i> Cloud Computing</a></li>
+                                <li><a href="/solutions/performance.html"><i class="fa fa-tachometer"></i> Performance</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Solutions Menu -->
+
+                        <li>
+                            <a href="/#services-overview">Services</a>
+                        </li>
+                        <!-- Services Menu
+                        <li class="dropdown">
+                            <a href="/services.html" class="dropdown-toggle" data-toggle="dropdown">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/services/consulting.html"><i class="fa fa-comments-o"></i> Conseil</a></li>
+                                <li><a href="/services/integration.html"><i class="fa fa-cubes"></i> Intégration</a></li>
+                                <li><a href="/services/training.html"><i class="fa fa-graduation-cap"></i> Formation</a></li>
+                                <li><a href="/services/support.html"><i class="fa fa-fax"></i> Support</a></li>
+                            </ul>
+                        </li>
+                        <!-- End Services Menu -->
+
+                        <!-- Blog Menu -->
+                        <li>
+                            <a href="/#footer">Blog</a>
+                        </li>
+                        <!-- End Blog Menu -->
+
+                        <!-- Contacts Menu -->
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#modcontact">Contact</a>
+                        </li>
+                        <!-- End Contacts Menu -->
+
+                        <!-- End Site Navigation -->
+                    </ul>
+                </div><!--/navbar-collapse-->
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </div>    <!-- End Header -->
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/solutions.html">Solutions</a></li>
+                <li class="active">Cloud Computing</li>
+            </ul>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Page Header -->
+    <div class="page-top bg-cloud parallaxBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Services Cloud</h1>
+                    <p>Que vous souhaitiez intégrer une solution Cloud ou proposer un service Cloud à vos clients, KataLean vous aide à faire evoluer votre business vers le monde du service.</p>
+                    <a href="javascript:void(0);" data-toggle="modal" data-target="#modcontact" class="btn-u btn-u-red">Rencontrez-nous !</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Header -->
+
+            <div class="modal fade" id="modlogin" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+                <div class="modal-dialog modlogin">
+                    <form class="" action="" method="POST">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 class="modal-title" id="contactModal">Login to your account</h3>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="input-group margin-bottom-20">
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" placeholder="Username" class="form-control">
+                                        </div>
+                                        <div class="input-group margin-bottom-20">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="password" placeholder="Password" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="pull-left">
+                                            <label class="checkbox"><input type="checkbox"> Stay signed in</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <a class="color-green forgot" href="#">Forgot your password?</a>
+                                <button class="btn-u pull-right" type="submit">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>            <div class="modal fade" id="modcontact" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="true">
+                <div class="modal-dialog">
+                    <form class="contact" action="//forms.brace.io/infos@katalean.com" method="POST">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 class="modal-title" id="contactModal">Nous contacter</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>Votre Prénom</h4>
+                                        <p><input class="form-control" type="text" name="contact_firstname"></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Votre Nom</h4>
+                                        <p><input class="form-control" type="text" name="contact_lastname"></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>E-mail</h4>
+                                        <p><input class="form-control" type="email" name="contact_name"></p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Téléphone</h4>
+                                        <p><input class="form-control" type="tel" pattern="[0-9]{10}" name="contact_phone" title="Votre numéro de téléphone"/></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4>Message</h4>
+                                        <p><textarea rows="5" class="form-control" type="text" name="contact_message"></textarea></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p><input type="checkbox" name="contact_newsletter"/> Je souhaite être tenu informé de votre actualité.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn-u btn-u-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn-u btn-u-primary" value="Send">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    <!-- Content Part -->
+    <div class="container content">
+
+    <!--Cloud Title Box-->
+    <div id="solutions" class="title-box">
+        <div class="title-box-text">Vos clients ne veulent pas <span class="color-blue">avoir à gérer votre produit.</span></div>
+        <p>KataLean élabore avec vous l'architecture matérielle et logicielle nécessaire à faire passer votre produit en service web.</p>
+    </div>
+    <!-- End Cloud Title Box -->
+
+    <div class="margin-bottom-20"></div>
+
+        <!-- Cloud Boxes -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="promo-box animated fadeInLeftBig">
+                    <i class="fa fa-hdd-o color-blue"></i>
+                    <h3>Infrastructure as a Service</h3>
+                    <p>Ne supportez plus les charges liées à des immobilisations perissables! Des serveurs sont à votre disposition à volonté, à la demande et pour le nombre d'heures qui vous conviendra.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="promo-box animated fadeInUpBig">
+                    <i class="fa fa-crop color-blue"></i>
+                    <h3>Plateforme as a Service</h3>
+                    <p>Gérer des configurations d'OS, de middleware ou de base de donnée n'est pas votre métier? Externalisez ces compétences afin d'accroitre la fiabilité de votre application.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="promo-box animated fadeInRightBig">
+                    <i class="fa fa-laptop color-blue"></i>
+                    <h3>Software as a Service</h3>
+                    <p>Pourquoi vous acharner à installer et maintenir des logiciels dont vous n'êtes pas l'auteur? Fini les coûts et le temps passé au <a href="https://fr.wikipedia.org/wiki/Maintien_en_condition_op%C3%A9rationnelle" rel="nofollow" target="_blank">MCO</a> de produits tiers, concentrez-vous sur votre valeur core.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Cloud Boxes -->
+    <div class="margin-bottom-60"></div>
+    <div id="solutions-overview" class="headline no-margin"><h1 class="blue">Le Cloud en chiffres</h1></div>
+</div>
+
+<div class="bg-blue">
+    <div class="container content">
+        <div class="margin-bottom-40"></div>
+
+		<!-- Cloud Data -->
+		<div class="margin-bottom-20"></div>
+		<div class="row">
+		    <div class="col-md-3 col-sm-6">
+		        <a href="http://www.networkworld.com/article/2842127/cloud-computing/idc-public-cloud-to-be-127b-industry-by-2018.html" rel="nofollow" target="_blank">
+			        <div class="promo-box doughnut">
+			            <div class="chart percent" data-percent="23">23</div>
+			            <h3>Croissance annuelle du marché du Cloud d'ici à 2018</h3>
+			        </div>
+			    </a>
+		    </div>
+		    <div class="col-md-3 col-sm-6">
+		        <a href="http://mjskok.com/resource/2014-future-cloud-computing-4th-annual-survey-results" rel="nofollow" target="_blank">
+			        <div class="promo-box doughnut">
+			            <div class="chart percent" data-percent="169">169</div>
+			            <h3 text="center">Taux d'adoption d'une application SaaS en entreprise par an</h3>
+			        </div>
+		        </a>
+		    </div>
+	        <div class="col-md-3 col-sm-6">
+	            <a href="http://www.rightscale.com/blog/cloud-industry-insights/cloud-computing-trends-2014-state-cloud-survey#Cloud-Adoption-Reaches-Ubiquity" rel="nofollow" target="_blank">
+	    	        <div class="promo-box doughnut">
+	    	            <div class="chart percent" data-percent="87">94</div>
+	    	            <h3 text="center">des sociétés utilisent ou projètent d'utiliser un service Cloud</h3>
+	    	        </div>
+	            </a>
+	        </div>
+            <div class="col-md-3 col-sm-6">
+                <a href="http://www.rightscale.com/blog/cloud-industry-insights/cloud-computing-trends-2014-state-cloud-survey#Hybrid-Cloud-Is-the-Strategy-of-Choice" rel="nofollow" target="_blank">
+        	        <div class="promo-box doughnut">
+        	            <div class="chart percent" data-percent="74">74</div>
+        	            <h3 text="center">des entreprises IT ont une stratégie Cloud hybride (public/privée)</h3>
+        	        </div>
+                </a>
+            </div>
+		</div>
+		<div class="margin-bottom-30"></div>
+		<!-- End Cloud Data -->
+
+        <div class="margin-bottom-55"></div>
+    </div>
+</div>
+
+<div class="container content">
+
+    <div class="margin-bottom-100"></div>
+    <div id="solutions-overview" class="headline"><h1 class="blue">Pourquoi investir dans le Cloud ?</h1></div>
+    <div class="margin-bottom-60"></div>
+
+        <!-- Cloud Why -->
+        <div class="row promo-service">
+            <div class="col-md-6 md-margin-bottom-20" align="justify">
+                <p><span class="dropcap-bg bg-blue">L</span>a notion de propriété est en déclin. A l'image de la musique, de la video ou même de la voiture, on observe que le consommateur s'oriente naturellement vers des offres répondant à des besoins ponctuels, qu'il pourra consommer à la demande, sans limite ni engagement. Le Cloud est le berceau de cette évolution.</p>
+                <p>Le Cloud Computing, qu'est-ce que c'est? C'est un modèle de consommation par abonnement d’une ressource informatique partagée, virtuellement infinie et dont la production est sous-traitée. Moins un système offre de valeur au client final, plus il est sujet à être consommé via un service externalisé, autrement dit "cloudifié".</p>
+                <p>L'informatique a jusqu'ici connu trois grandes révolutions. La première est bien entendu l'avenement de la "machine pensante", qui en 1946 répond aux critères du test de Turing. L'arrivée du "Personal Computer" dans les foyers consititue la seconde révolution du secteur. Une troisième révolution éclot en 1983, avec la naissance d'Internet.</p>
+                <p>Trente ans après Internet, nous voici à l'aube d'une quatrième révolution informatique, celle-ci cristallisée autour du Cloud Computing. La standardisation sous forme de service auto-géré de la consommation des ressources informatiques et l'ubiquité de l'accès à Internet offrent au paysage numérique l'opportunité de devenir une commodité, tel que l'eau ou l'éléctricité.</p>
+                <p>Nous voici donc face à une étape d'envergure, qu'une entreprise avisée saura ne pas rater. Ceux qui n'auront pas réalisé à temps l'importance d'intégrer le Cloud à leur business seront tôt ou tard dépassés par l'agilité et les économies qu'offre ce modèle à leurs concurrents. La transition est cependant semée d'embûches et demandera l'expertise d'un professionel afin de ne pas faire fausse route.</p>
+
+                <div class="clearfix margin-bottom-10"></div>
+
+                <a href="javascript:void(0);" class="btn-u btn-u-default" data-toggle="modal" data-target="#modcontact"><i class="fa fa-envelope-o"></i> Nous contacter</a>
+            </div>
+
+            <div class="col-md-6">
+                <div class="margin-bottom-100"></div>
+                <div class="carousel slide carousel-v1" id="myCarousel-1">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="1"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="2"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="3"></li>
+                        <li data-target="#myCarousel-1" data-slide-to="4"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img alt="" src="/theme/images/cloud_slider1.jpg">
+                            <div class="carousel-caption">
+                                <p>Simon Wardley - Evolution des technologies</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/cloud_slider2.jpg">
+                            <div class="carousel-caption">
+                                <p>RightScale - Rapport "State of the Cloud" - 2014</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/cloud_slider3.jpg">
+                            <div class="carousel-caption">
+                                <p>RightScale - Rapport "State of the Cloud" - 2014</p>
+                            </div>
+                            </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/cloud_slider4.jpg">
+                            <div class="carousel-caption">
+                                <p>RightScale - Rapport "State of the Cloud" - 2014</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img alt="" src="/theme/images/cloud_slider5.jpg">
+                            <div class="carousel-caption">
+                                <p>RightScale - Rapport "State of the Cloud" - 2014</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-arrow">
+                        <a data-slide="prev" href="#myCarousel-1" class="left carousel-control">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a data-slide="next" href="#myCarousel-1" class="right carousel-control">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Cloud Why -->
+    <div class="margin-bottom-100"></div>
+    <div id="solutions-overview" class="headline"><h1 class="blue">Cas d'usages</h1></div>
+    <div class="margin-bottom-60"></div>
+
+        <!-- Cloud Who -->
+        <div class="row font-16" align="justify">
+            <div class="col-md-6">
+                <div class="tag-box tag-box-v4">
+                    <h2><i class="fa fa-cloud-download"></i> Consommateur de service</h2>
+                    <div class="margin-bottom-30"></div>
+                    <ul class="list-unstyled margin-bottom-15 margin-left-10">
+                        <li class="margin-bottom-10"><i class="fa fa-chevron-circle-right color-blue margin-right-5"></i>Ne payer que pour les ressources consommées par une application selon l'afflux et l'heure de la journée</li>
+                        <li class="margin-bottom-10"><i class="fa fa-chevron-circle-right color-blue margin-right-5"></i>Juger de la capacité requise par une application, en l'installant d'abord sur une infrastructure Cloud avant d'acheter le nombre de serveurs réellement nécessaire à son exploitation</li>
+                        <li class="margin-bottom-10"><i class="fa fa-chevron-circle-right color-blue margin-right-5"></i>Gérer les erreurs, les indicateurs de performance et la sécurité d'un service web (<a href="http://www.appdynamics.com/" rel="nofollow" target="_blank">AppDynamics</a>, <a href="https://newrelic.com/" rel="nofollow" target="_blank">New Relic</a>)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="tag-box tag-box-v4">
+                    <h2><i class="fa fa-cloud-upload"></i> Producteur de service</h2>
+                    <div class="margin-bottom-30"></div>
+                    <ul class="list-unstyled margin-bottom-15 margin-left-10">
+                        <li class="margin-bottom-10"><i class="fa fa-chevron-circle-right color-blue margin-right-5"></i>Proposer aux clients d'une application le choix de ne pas gérer eux même l'installation, le maintien et la mise à jour et l'administration de leur application</li>
+                        <li class="margin-bottom-10"><i class="fa fa-chevron-circle-right color-blue margin-right-5"></i>Ne plus avoir à contacter puis gérer chaque client individuellement par la mise en place d'un libre service</li>
+                        <li class="margin-bottom-10"><i class="fa fa-chevron-circle-right color-blue margin-right-5"></i>Offrir à ses (futurs) clients une solution clé en main dont ils pourront tirer les bénéfices en moins d'une heure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" align="justify">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="margin-bottom-60"></div>
+                <div class="carousel slide testimonials testimonials-v1" id="testimonials-1">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <p>"Computing may someday be organized as a public utility just as the telephone system is a public utility”</p>
+                            <div class="testimonial-info">
+                                <img alt="" src="/theme/images/John_McCarthy.jpg">
+                                <span class="testimonial-author">
+                                    <a href="http://www.technologyreview.com/news/425623/the-cloud-imperative/">John McCarthy</a>
+                                    <em>MIT’s centennial celebration - 1961</em>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>Le cloud computing est souvent beaucoup plus sûr que l'informatique traditionnelle, car des entreprises comme Google et Amazon peuvent attirer et retenir du personnel en cyber-sécurité d'une qualité supérieure à celle de nombreuses sociétés ou agences gouvernementales.”</p>
+                            <div class="testimonial-info">
+                                <img alt="" src="/theme/images/Vivek_Kundra.jpg">
+                                <span class="testimonial-author">
+                                    <a href="http://www.nytimes.com/2011/08/31/opinion/tight-budget-look-to-the-cloud.html">Vivek Kundra</a>
+                                    <em>Responsable SI du gouvernement fédéral américain - 2011</em>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p>"Le cloud computing devrait être une évidence pour toute start-up, car il vous permet de tester votre business plan très rapidement et pour peu d'argent. Chaque start-up, ou même une division au sein d'une entreprise qui a une idée novatrice, devraient chercher à exploiter comment utiliser le cloud computing dans son plan d'action.”</p>
+                            <div class="testimonial-info">
+                                <img alt="" src="/theme/images/Brad_Jefferson.jpg">
+                                <span class="testimonial-author">
+                                    <a href"https://www.linkedin.com/in/bradjefferson">Brad Jefferson</a>
+                                    <em>Brad Jefferson, CEO – Animoto</em>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-arrow">
+                        <a data-slide="prev" href="#testimonials-1" class="left carousel-control">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a data-slide="next" href="#testimonials-1" class="right carousel-control">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Cloud Who -->
+    <div class="margin-bottom-60"></div>
+
+
+    </div>
+    <!-- End Content Part -->
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <div id="footer" class="footer" align="justify">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 md-margin-bottom-40">
+                    <!-- About -->
+                    <div class="headline"><h2>A Propos</h2></div>
+                    <p class="margin-bottom-25 md-margin-bottom-40">KataLean est une société de conseil dont l'objectif est d'offrir un avantage concurrenciel à ses clients en s'appuyant sur de bonnes pratiques, une expertise robuste et les dernières avancées technologiques.</p>
+                    <!-- End About -->
+
+                    <!-- Newsletter -->
+                    <div class="headline"><h2>Newsletter</h2></div>
+                    <p>Souscrivez dès aujourd'hui à notre newsletter afin de rester informé sur nos activités.</p>
+                    <form class="footer-subsribe" action="//forms.brace.io/newsletter@katalean.com" method="POST">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email Address" name="subscriber">
+                            <span class="input-group-btn">
+                                <button class="btn-u" type="submit" value="Subscribe"><i class="fa fa-paper-plane"></i> Subscribe</button>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- End Newsletter -->
+                </div><!--/col-md-4-->
+
+                <div class="col-md-4 md-margin-bottom-40">
+                    <!-- Recent Blogs -->
+                    <div class="posts">
+                        <div class="headline"><h2>Billets Récents</h2></div>
+                        <dl class="dl-horizontal">
+                            <dt><a href="#"><img src="/theme/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+                            <dd>
+                                <p>Coming soon...</p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <!-- End Recent Blogs -->
+                </div><!--/col-md-4-->
+
+                <div class="col-md-4 map-img">
+                    <!-- Contact Us -->
+                    <div class="headline"><h2>Nous Contacter</h2></div>
+                    <address class="md-margin-bottom-40">
+                        KataLean <br/>
+                        59, rue des Chalâtres <br/>
+                        44000, Nantes <br/>
+                        Phone : <a href="tel:+33953741561">(+33) 09 53 74 15 61</a><br/>
+                        Fax : <a href="tel:+33958741561">(+33) 09 58 74 15 61</a><br/>
+                        E-mail : <a href="mailto:infos@katalean.fr">infos@katalean.fr</a>
+                        <br/><br/>
+                        <a href="/KataLean.vcf"><button class="btn-u" type="button"><i class="fa fa-user"></i> Format vCard</button></a>
+                    </address>
+                    <!-- End Contact Us -->
+                </div><!--/col-md-4-->
+            </div>
+        </div>
+    </div><!--/footer-->
+    <!-- End Footer -->
+
+    <!--=== Copyright ===-->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>
+                        2014 &copy; KataLean. Tous Droits Réservés.
+                        <a href="#">Politique de Confidencialité</a> | <a href="#">Conditions de Service</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-icons pull-right">
+                        <li><a href="http://www.twitter.com/Kata_Lean" data-original-title="Twitter" class="rounded-x social_twitter"></a></li>
+                        <li><a href="http://www.facebook.com/KataLeanIT" data-original-title="Facebook" class="rounded-x social_facebook"></a></li>
+                        <li><a href="https://plus.google.com/b/108442473056864143361/108442473056864143361/about" data-original-title="Goole Plus" class="rounded-x social_googleplus"></a></li>
+                        <li><a href="http://www.linkedin.com/" data-original-title="Linkedin" class="rounded-x social_linkedin"></a></li>
+                        <li><a href="/feeds/all.atom.xml" data-original-title="Feed" class="rounded-x social_rss"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!--/copyright-->
+        <!-- End Copyright -->    <!-- End Footer -->
+</div><!--/wrapper-->
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="/theme/plugins/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/theme/plugins/jquery-migrate-1.2.1.min.js"></script>
+<!-- Layer Slider -->
+<script type="text/javascript" src="/theme/plugins/layer-slider/layerslider/js/greensock.js"></script>
+<script type="text/javascript" src="/theme/plugins/layer-slider/layerslider/js/layerslider.transitions.js"></script>
+<script type="text/javascript" src="/theme/plugins/layer-slider/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+<!-- End Layer Slider -->
+<script type="text/javascript" src="/theme/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="/theme/plugins/back-to-top.js"></script>
+<script type="text/javascript" src="/theme/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/theme/plugins/jquery.easypiechart.min.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="/theme/js/app.js"></script>
+<script type="text/javascript" src="/theme/js/pages/index.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initSliders();
+        Index.initLayerSlider();
+        $('.chart').easyPieChart({
+            //your options goes here
+            barColor: '#72c02c',
+            trackColor: '#f1f1f1',
+            scaleColor: false,
+            lineWidth: 20,
+            lineCap: 'square',
+            size: 140,
+            animate: { duration: 2500, enabled: true }
+        });
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="theme/plugins/respond.js"></script>
+    <script src="theme/plugins/layer-slider/theme/js/html5.js"></script>
+<![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-53331013-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>

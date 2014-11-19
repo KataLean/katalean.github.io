@@ -1,0 +1,10 @@
+BEGIN:VCARD
+N:Baudu;Arno;;;
+ADR;INTL;PARCEL;WORK:;;59, rue des Chalatres;Nantes;;44000;France
+EMAIL;INTERNET:arno@katalean.fr
+ORG:KataLean
+TEL;WORK:+33953741561
+TEL;FAX;WORK:+33958741561
+TITLE:Consultant DevOps, Cloud et Performance
+URL;WORK:http://www.katalean.fr
+END:VCARD
